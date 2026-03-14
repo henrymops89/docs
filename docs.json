@@ -1,87 +1,114 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "MopsScripts",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0088cc",
+    "light": "#33aadd",
+    "dark": "#005f8e"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Dokumentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "getting-started/willkommen",
+              "getting-started/voraussetzungen",
+              "getting-started/installation",
+              "getting-started/escrow-tebex"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Scripts",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              {
+                "group": "hm_shopcreator",
+                "pages": [
+                  "scripts/hm_shopcreator/uebersicht",
+                  "scripts/hm_shopcreator/installation",
+                  "scripts/hm_shopcreator/konfiguration",
+                  "scripts/hm_shopcreator/features",
+                  "scripts/hm_shopcreator/faq",
+                  "scripts/hm_shopcreator/changelog"
+                ]
+              },
+              {
+                "group": "hm_courierjob",
+                "pages": [
+                  "scripts/hm_courierjob/uebersicht",
+                  "scripts/hm_courierjob/installation",
+                  "scripts/hm_courierjob/konfiguration",
+                  "scripts/hm_courierjob/features",
+                  "scripts/hm_courierjob/faq",
+                  "scripts/hm_courierjob/changelog"
+                ]
+              },
+              {
+                "group": "hm_taxiapp",
+                "pages": [
+                  "scripts/hm_taxiapp/uebersicht",
+                  "scripts/hm_taxiapp/installation",
+                  "scripts/hm_taxiapp/konfiguration",
+                  "scripts/hm_taxiapp/features",
+                  "scripts/hm_taxiapp/faq",
+                  "scripts/hm_taxiapp/changelog"
+                ]
+              },
+              {
+                "group": "hm_vehicledealer",
+                "pages": [
+                  "scripts/hm_vehicledealer/uebersicht",
+                  "scripts/hm_vehicledealer/installation",
+                  "scripts/hm_vehicledealer/konfiguration",
+                  "scripts/hm_vehicledealer/features",
+                  "scripts/hm_vehicledealer/faq",
+                  "scripts/hm_vehicledealer/changelog"
+                ]
+              },
+              {
+                "group": "hm_busjob",
+                "pages": [
+                  "scripts/hm_busjob/uebersicht",
+                  "scripts/hm_busjob/installation",
+                  "scripts/hm_busjob/konfiguration",
+                  "scripts/hm_busjob/features",
+                  "scripts/hm_busjob/faq",
+                  "scripts/hm_busjob/changelog"
+                ]
+              }
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Framework Guide",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "framework/qbox",
+              "framework/qbcore",
+              "framework/esx",
+              "framework/ox-inventory",
+              "framework/ox-target"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Support",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Hilfe",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "support/faq",
+              "support/troubleshooting",
+              "support/discord",
+              "support/changelog"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -90,33 +117,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Tebex Shop",
+        "href": "https://mopsscripts.tebex.io"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/mopsscripts"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://discord.gg/mopsscripts"
     }
   }
 }
