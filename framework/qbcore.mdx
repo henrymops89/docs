@@ -1,0 +1,23 @@
+---
+title: QBCore
+description: MopsScripts mit QBCore verwenden
+icon: cube
+---
+
+# QBCore
+
+QBCore wird vollständig unterstützt und automatisch über das Bridge-System erkannt.
+
+<Warning>
+  Stelle sicher, dass `qb-core` vor allen MopsScripts-Ressourcen gestartet wird.
+</Warning>
+
+## Startreihenfolge
+
+```
+ensure qb-core
+ensure oxmysql
+ensure ox_lib
+
+ensure hm_shopcreator
+```

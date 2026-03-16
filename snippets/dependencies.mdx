@@ -1,0 +1,25 @@
+<AccordionGroup>
+  <Accordion title="oxmysql" icon="database">
+    Pflichtabhängigkeit für alle MopsScripts. Wird für alle Datenbankoperationen verwendet.
+
+    - [oxmysql auf GitHub](https://github.com/overextended/oxmysql)
+    - Mindestversion: `2.7.0`
+  </Accordion>
+  <Accordion title="ox_lib" icon="book">
+    Pflichtabhängigkeit für UI-Elemente, Callbacks und Utilities.
+
+    - [ox_lib auf GitHub](https://github.com/overextended/ox_lib)
+    - Mindestversion: `3.0.0`
+  </Accordion>
+  <Accordion title="Framework" icon="cube">
+    Eines der folgenden Frameworks muss installiert sein:
+
+    | Framework | Ressource |
+    |-----------|-----------|
+    | QBox | `qbx_core` ✅ empfohlen |
+    | QBCore | `qb-core` |
+    | ESX | `es_extended` |
+  </Accordion>
+</AccordionGroup>
+
+{props.extra && props.extra}

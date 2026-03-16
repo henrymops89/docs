@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "MopsScripts",
   "colors": {
-    "primary": "#0088cc",
-    "light": "#33aadd",
-    "dark": "#005f8e"
+    "primary": "#F47C20",
+    "light": "#f89a52",
+    "dark": "#c45e0a"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -111,8 +111,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "logo/light.svg",
+    "dark": "logo/dark.svg"
   },
   "navbar": {
     "links": [

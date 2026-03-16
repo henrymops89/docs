@@ -1,0 +1,33 @@
+<Steps>
+  <Step title="Abhängigkeiten prüfen">
+    Stelle sicher, dass `oxmysql`, `ox_lib` und dein Framework gestartet sind.
+    Siehe [Voraussetzungen](/getting-started/voraussetzungen).
+  </Step>
+  <Step title="Ressource einfügen">
+    Kopiere den Script-Ordner in dein `resources`-Verzeichnis:
+    ```
+    resources/
+    └── [mopsscripts]/
+        └── {props.resource}/
+    ```
+  </Step>
+  <Step title="SQL importieren">
+    Importiere `{props.resource}.sql` in deine Datenbank.
+
+    <Note>
+      Dieser Schritt entfällt, falls keine `.sql`-Datei im Script-Ordner enthalten ist.
+    </Note>
+  </Step>
+  <Step title="server.cfg eintragen">
+    ```
+    ensure {props.resource}
+    ```
+    <Warning>
+      Alle Abhängigkeiten müssen **vor** dem Script in der `server.cfg` stehen.
+    </Warning>
+  </Step>
+  <Step title="Konfiguration anpassen">
+    Öffne `config/config.lua` und passe die Einstellungen an deinen Server an.
+    Details findest du auf der [Konfigurationsseite](konfiguration).
+  </Step>
+</Steps>
