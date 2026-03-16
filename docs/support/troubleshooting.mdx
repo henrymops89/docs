@@ -1,0 +1,31 @@
+---
+title: Troubleshooting
+description: Häufige Fehler und ihre Lösungen
+icon: wrench
+---
+
+# Troubleshooting
+
+## Häufige Fehler
+
+### `attempt to index a nil value`
+
+Das Framework wurde nicht erkannt. Prüfe:
+- Ist dein Framework korrekt gestartet? (`qbx_core`, `qb-core` oder `es_extended`)
+- Wird das Framework **vor** dem MopsScript gestartet?
+
+### `oxmysql: connection failed`
+
+Prüfe deine Datenbankverbindung in der `server.cfg`:
+```
+set mysql_connection_string "mysql://user:password@host/database"
+```
+
+### Script wird nicht im Keymaster angezeigt
+
+- Verknüpfe deinen FiveM-Account mit dem Tebex-Account, mit dem du gekauft hast
+- Warte bis zu 10 Minuten nach dem Kauf
+
+<Info>
+  Weiterhin Probleme? Komm auf unseren [Discord](/support/discord) — wir helfen dir!
+</Info>

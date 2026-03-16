@@ -1,0 +1,25 @@
+---
+title: ox_inventory
+description: ox_inventory mit MopsScripts verwenden
+icon: boxes-stacked
+---
+
+# ox_inventory
+
+ox_inventory ist das empfohlene Inventar-System für alle MopsScripts.
+
+## Items registrieren
+
+Alle Script-Items müssen in `ox_inventory/data/items.lua` registriert sein:
+
+```lua
+['item_name'] = {
+    label = 'Item Name',
+    weight = 100,
+    stack = true,
+},
+```
+
+<Info>
+  Die benötigten Items sind in der jeweiligen Script-Dokumentation aufgelistet.
+</Info>

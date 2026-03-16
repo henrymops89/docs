@@ -1,0 +1,40 @@
+---
+title: Script installieren
+description: Allgemeine Installationsanleitung für alle MopsScripts
+icon: download
+---
+
+# Allgemeine Installation
+
+<Steps>
+  <Step title="Tebex-Kauf & Escrow">
+    Nach dem Kauf auf [mopsscripts.tebex.io](https://mopsscripts.tebex.io) erhältst du Zugang zum CFX.re Asset Escrow.
+    Stelle sicher, dass dein FiveM-Account mit Tebex verknüpft ist.
+  </Step>
+  <Step title="Download">
+    Lade das Script über das [Keymaster-Portal](https://keymaster.fivem.net) herunter.
+  </Step>
+  <Step title="Ressource einfügen">
+    Kopiere den Script-Ordner in dein `resources`-Verzeichnis:
+    ```
+    resources/
+    └── [mopsscripts]/
+        └── hm_scriptname/
+    ```
+  </Step>
+  <Step title="server.cfg eintragen">
+    ```
+    ensure hm_scriptname
+    ```
+    <Warning>
+      Stelle sicher, dass alle Abhängigkeiten **vor** dem Script gestartet werden.
+    </Warning>
+  </Step>
+  <Step title="Datenbank">
+    Falls das Script eine SQL-Datei mitliefert, importiere diese in deine Datenbank.
+  </Step>
+  <Step title="Konfiguration">
+    Passe die `config/config.lua` nach deinen Wünschen an.
+    Weitere Details findest du in der jeweiligen Script-Dokumentation.
+  </Step>
+</Steps>

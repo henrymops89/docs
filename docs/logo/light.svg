@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 115" width="300" height="115">
+  <path d="M10,0 L290,0 L290,62 Q290,80 270,88 L150,112 L30,88 Q10,80 10,62 Z" fill="#1a2744" stroke="#F47C20" stroke-width="3"/>
+  <path d="M10,0 L38,0 L38,70 Q38,78 32,82 L10,68 Z" fill="#F47C20"/>
+  <path d="M262,0 L290,0 L290,68 L268,82 Q262,78 262,70 Z" fill="#F47C20"/>
+  <text x="150" y="36" text-anchor="middle" font-family="monospace" font-weight="700" font-size="16" fill="#3ec97a">&lt;/&gt;</text>
+  <text x="150" y="75" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="38" fill="#ffffff">Mops<tspan fill="#F47C20">Scripts</tspan></text>
+</svg>

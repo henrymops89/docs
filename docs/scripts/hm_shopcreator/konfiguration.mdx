@@ -1,0 +1,29 @@
+---
+title: Konfiguration
+description: config.lua Referenz für hm_shopcreator
+icon: sliders
+---
+
+# Konfiguration
+
+Die Konfiguration befindet sich in `config/config.lua`.
+
+## Allgemeine Einstellungen
+
+```lua
+Config = {}
+
+-- Befehl zum Öffnen des Shop-Menüs (nur für Admins)
+Config.Command = 'shopcreator'
+
+-- Berechtigte Gruppen für die Shop-Verwaltung
+Config.AdminGroups = { 'admin', 'superadmin' }
+
+-- Maximale Distanz zum Interagieren mit einem Shop
+Config.InteractDistance = 2.5
+```
+
+<Info>
+  Sensible Einstellungen wie Discord-Webhooks befinden sich in `config/sv_config.lua`
+  und sind nicht für Clients zugänglich.
+</Info>

@@ -1,0 +1,23 @@
+---
+title: ESX
+description: MopsScripts mit ESX verwenden
+icon: cube
+---
+
+# ESX
+
+ESX wird vollständig unterstützt und automatisch über das Bridge-System erkannt.
+
+<Warning>
+  Stelle sicher, dass `es_extended` vor allen MopsScripts-Ressourcen gestartet wird.
+</Warning>
+
+## Startreihenfolge
+
+```
+ensure es_extended
+ensure oxmysql
+ensure ox_lib
+
+ensure hm_shopcreator
+```

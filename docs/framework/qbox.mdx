@@ -1,0 +1,22 @@
+---
+title: QBox / qbx_core
+description: MopsScripts mit QBox verwenden
+icon: cube
+---
+
+# QBox / qbx_core
+
+QBox ist das primär unterstützte Framework für alle MopsScripts. Es wird automatisch erkannt — kein zusätzlicher Schritt erforderlich.
+
+## Startreihenfolge in server.cfg
+
+```
+ensure qbx_core
+ensure oxmysql
+ensure ox_lib
+ensure ox_inventory
+
+ensure hm_shopcreator
+ensure hm_courierjob
+# ... weitere MopsScripts
+```

@@ -1,0 +1,134 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "MopsScripts",
+  "colors": {
+    "primary": "#F47C20",
+    "light": "#f89a52",
+    "dark": "#c45e0a"
+  },
+  "favicon": "favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Dokumentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/willkommen",
+              "getting-started/voraussetzungen",
+              "getting-started/installation",
+              "getting-started/escrow-tebex"
+            ]
+          },
+          {
+            "group": "Scripts",
+            "pages": [
+              {
+                "group": "hm_shopcreator",
+                "pages": [
+                  "scripts/hm_shopcreator/uebersicht",
+                  "scripts/hm_shopcreator/installation",
+                  "scripts/hm_shopcreator/konfiguration",
+                  "scripts/hm_shopcreator/features",
+                  "scripts/hm_shopcreator/faq",
+                  "scripts/hm_shopcreator/changelog"
+                ]
+              },
+              {
+                "group": "hm_courierjob",
+                "pages": [
+                  "scripts/hm_courierjob/uebersicht",
+                  "scripts/hm_courierjob/installation",
+                  "scripts/hm_courierjob/konfiguration",
+                  "scripts/hm_courierjob/features",
+                  "scripts/hm_courierjob/faq",
+                  "scripts/hm_courierjob/changelog"
+                ]
+              },
+              {
+                "group": "hm_taxiapp",
+                "pages": [
+                  "scripts/hm_taxiapp/uebersicht",
+                  "scripts/hm_taxiapp/installation",
+                  "scripts/hm_taxiapp/konfiguration",
+                  "scripts/hm_taxiapp/features",
+                  "scripts/hm_taxiapp/faq",
+                  "scripts/hm_taxiapp/changelog"
+                ]
+              },
+              {
+                "group": "hm_vehicledealer",
+                "pages": [
+                  "scripts/hm_vehicledealer/uebersicht",
+                  "scripts/hm_vehicledealer/installation",
+                  "scripts/hm_vehicledealer/konfiguration",
+                  "scripts/hm_vehicledealer/features",
+                  "scripts/hm_vehicledealer/faq",
+                  "scripts/hm_vehicledealer/changelog"
+                ]
+              },
+              {
+                "group": "hm_busjob",
+                "pages": [
+                  "scripts/hm_busjob/uebersicht",
+                  "scripts/hm_busjob/installation",
+                  "scripts/hm_busjob/konfiguration",
+                  "scripts/hm_busjob/features",
+                  "scripts/hm_busjob/faq",
+                  "scripts/hm_busjob/changelog"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Framework Guide",
+            "pages": [
+              "framework/qbox",
+              "framework/qbcore",
+              "framework/esx",
+              "framework/ox-inventory",
+              "framework/ox-target"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Support",
+        "groups": [
+          {
+            "group": "Hilfe",
+            "pages": [
+              "support/faq",
+              "support/troubleshooting",
+              "support/discord",
+              "support/changelog"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "logo/light.svg",
+    "dark": "logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Tebex Shop",
+        "href": "https://mopsscripts.tebex.io"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/mopsscripts"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/mopsscripts"
+    }
+  }
+}

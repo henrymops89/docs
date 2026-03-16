@@ -1,0 +1,20 @@
+---
+title: FAQ
+description: Häufige Fragen zu hm_shopcreator
+icon: circle-question
+---
+
+# FAQ
+
+<AccordionGroup>
+  <Accordion title="Shops werden nach Server-Restart nicht geladen">
+    Stelle sicher, dass `oxmysql` vollständig gestartet ist, bevor `hm_shopcreator` startet.
+    Prüfe die Startreihenfolge in deiner `server.cfg`.
+  </Accordion>
+  <Accordion title="Items erscheinen nicht im Shop">
+    Items müssen in deinem Inventar-System registriert sein (z.B. `ox_inventory/data/items.lua`).
+  </Accordion>
+  <Accordion title="Der Befehl funktioniert nicht">
+    Prüfe, ob deine Gruppe in `Config.AdminGroups` eingetragen ist.
+  </Accordion>
+</AccordionGroup>

@@ -1,0 +1,53 @@
+---
+title: Voraussetzungen
+description: Was du vor der Installation eines MopsScripts benötigst
+icon: list-check
+---
+
+# Voraussetzungen
+
+Stelle sicher, dass folgende Abhängigkeiten auf deinem Server installiert und aktuell sind.
+
+## Pflichtabhängigkeiten
+
+<AccordionGroup>
+  <Accordion title="oxmysql" icon="database">
+    Alle MopsScripts verwenden `oxmysql` für Datenbankoperationen.
+
+    - [oxmysql auf GitHub](https://github.com/overextended/oxmysql)
+    - Mindestversion: `2.7.0`
+  </Accordion>
+  <Accordion title="ox_lib" icon="book">
+    Für UI-Elemente, Callbacks und Utilities.
+
+    - [ox_lib auf GitHub](https://github.com/overextended/ox_lib)
+    - Mindestversion: `3.0.0`
+  </Accordion>
+</AccordionGroup>
+
+## Framework (eines davon)
+
+<Tabs>
+  <Tab title="QBox">
+    ```
+    qbx_core (empfohlen)
+    ```
+  </Tab>
+  <Tab title="QBCore">
+    ```
+    qb-core
+    ```
+  </Tab>
+  <Tab title="ESX">
+    ```
+    es_extended
+    ```
+  </Tab>
+</Tabs>
+
+## Optionale Abhängigkeiten
+
+Je nach Script können folgende Ressourcen benötigt werden:
+
+- `ox_inventory` oder alternatives Inventar-System
+- `ox_target` oder `qb-target`

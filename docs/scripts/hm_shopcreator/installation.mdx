@@ -1,0 +1,27 @@
+---
+title: Installation
+description: hm_shopcreator installieren
+icon: download
+---
+
+# Installation
+
+<Steps>
+  <Step title="Abhängigkeiten prüfen">
+    Stelle sicher, dass `oxmysql`, `ox_lib` und dein Framework laufen.
+    Siehe [Voraussetzungen](/getting-started/voraussetzungen).
+  </Step>
+  <Step title="Ressource einfügen">
+    ```
+    resources/[mopsscripts]/hm_shopcreator/
+    ```
+  </Step>
+  <Step title="SQL importieren">
+    Importiere `hm_shopcreator.sql` in deine Datenbank.
+  </Step>
+  <Step title="server.cfg">
+    ```
+    ensure hm_shopcreator
+    ```
+  </Step>
+</Steps>
